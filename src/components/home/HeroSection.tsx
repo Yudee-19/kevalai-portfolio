@@ -1,10 +1,10 @@
 import React from "react";
-import { Description, Title } from "./ui/Title";
-import Avatar from "./ui/Avatar";
-import { Button } from "./ui/button";
+import { Description, Title } from "@/components/ui/Title";
+import Avatar from "@/components/ui/Avatar";
+import { Button } from "@/components/ui/button";
 import { ArrowUpRight, Section } from "lucide-react";
 import Image from "next/image";
-import Container from "./Container";
+import Container from "@/components/ui/Container";
 
 const HeroSection = () => {
     return (

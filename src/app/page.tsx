@@ -1,14 +1,13 @@
-import AboutUsSection from "@/components/AboutUsSection";
-import ChallengesSection from "@/components/ChallengesSection";
-import Container from "@/components/Container";
-import HeroSection from "@/components/HeroSection";
-import OurSolutionsSection from "@/components/OurSolutionsSection";
-import { SponsorsMarquee } from "@/components/SponsorsMarquee";
-import Image from "next/image";
+import AboutUsSection from "@/components/home/AboutUsSection";
+import ChallengesSection from "@/components/home/ChallengesSection";
+import Container from "@/components/ui/Container";
+import HeroSection from "@/components/home/HeroSection";
+import OurSolutionsSection from "@/components/home/OurSolutionsSection";
+import { SponsorsMarquee } from "@/components/home/SponsorsMarquee";
 
 export default function Home() {
     return (
-        <main>
+        <main className="min-h-screen">
             <HeroSection />
             <SponsorsMarquee />
             <Container>

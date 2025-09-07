@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./ui/Card";
-import { Description, Title } from "./ui/Title";
+import Card from "@/components/ui/Card";
+import { Description, Title } from "@/components/ui/Title";
 import {
     ChartNoAxesColumn,
     Link,
@@ -10,7 +10,7 @@ import {
     Settings,
     ArrowUpRight,
 } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 
 const solutions = [
     {

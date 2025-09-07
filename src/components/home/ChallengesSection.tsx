@@ -1,8 +1,8 @@
 import React from "react";
-import { Description, Title } from "./ui/Title";
-import Card from "./ui/Card";
+import { Description, Title } from "@/components/ui/Title";
+import Card from "@/components/ui/Card";
 import Image from "next/image";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
 
 const challenges = [

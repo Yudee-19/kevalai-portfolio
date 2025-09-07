@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import Container from "./Container";
-import { Button } from "./ui/button";
+import Container from "@/components/ui/Container";
+import { Button } from "@/components/ui/button";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import Link from "next/link";
 
@@ -16,37 +16,41 @@ const Header = () => {
         <div className="sticky top-0 bg-white z-50 shadow-sm">
             <Container>
                 <div className="flex justify-between items-center py-4">
-                    {/* Logo */}
-                    <div className="text-lg md:text-3xl font-bold text-primary">
-                        KevalAI
-                    </div>
+                    <div className="flex justify-center items-center gap-10 ">
+                        {/* Logo */}
+                        <Link href="/" passHref>
+                            <div className="text-3xl font-bold text-primary">
+                                KevalAI
+                            </div>
+                        </Link>
 
-                    {/* Desktop Navigation */}
-                    <div className="hidden md:flex justify-between items-center gap-10">
-                        <nav>
-                            <ul className="list-none flex gap-6">
-                                <Link href="/" passHref>
-                                    <li className="hover:text-primary/70 transition-colors cursor-pointer">
-                                        Home
-                                    </li>
-                                </Link>
-                                <Link href="/about" passHref>
-                                    <li className="hover:text-primary/70 transition-colors cursor-pointer">
-                                        About
-                                    </li>
-                                </Link>
-                                <Link href="/services" passHref>
-                                    <li className="hover:text-primary/70 transition-colors cursor-pointer">
-                                        Services
-                                    </li>
-                                </Link>
-                                <Link href="/contact" passHref>
-                                    <li className="hover:text-primary/70 transition-colors cursor-pointer">
-                                        Contact
-                                    </li>
-                                </Link>
-                            </ul>
-                        </nav>
+                        {/* Desktop Navigation */}
+                        <div className="hidden md:flex justify-between items-center gap-10">
+                            <nav>
+                                <ul className="list-none flex gap-6">
+                                    <Link href="/" passHref>
+                                        <li className="hover:text-primary/70 transition-colors cursor-pointer">
+                                            Home
+                                        </li>
+                                    </Link>
+                                    <Link href="/about" passHref>
+                                        <li className="hover:text-primary/70 transition-colors cursor-pointer">
+                                            About
+                                        </li>
+                                    </Link>
+                                    <Link href="/services" passHref>
+                                        <li className="hover:text-primary/70 transition-colors cursor-pointer">
+                                            Services
+                                        </li>
+                                    </Link>
+                                    <Link href="/contact" passHref>
+                                        <li className="hover:text-primary/70 transition-colors cursor-pointer">
+                                            Contact
+                                        </li>
+                                    </Link>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
 
                     {/* Desktop Get Started Button */}

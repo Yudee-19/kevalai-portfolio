@@ -1,19 +1,19 @@
 import React from "react";
-import Container from "./Container";
-import { Title } from "./ui/Title";
+import Container from "../ui/Container";
+import { Title } from "../ui/Title";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-black/5 py-7">
+        <footer className=" w-full bg-black/5 py-7">
             <Container className="flex flex-col justify-center items-center gap-5">
-                <div className="w-full sm:flex flex-col justify-start items-start gap-14">
+                <div className="w-full flex sm:flex-row flex-col justify-start items-start gap-14">
                     <Title className="text-blue-950 lg:text-4xl font-bold mb-10">
                         KevalAI
                     </Title>
 
-                    <div className="flex sm:flex flex-col justify-center items-start gap-14">
+                    <div className="flex sm:flex-row flex-col justify-center items-start gap-14">
                         {/* Vertical separator line */}
                         <div className="w-1 h-50 hidden sm:block   border-l border-black/10"></div>
 

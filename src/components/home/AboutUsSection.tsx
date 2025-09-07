@@ -1,5 +1,5 @@
 import React from "react";
-import { Description, Title } from "./ui/Title";
+import { Description, Title } from "@/components/ui/Title";
 
 const AboutUsSection = () => {
     return (

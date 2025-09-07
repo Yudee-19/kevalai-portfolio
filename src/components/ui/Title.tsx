@@ -30,7 +30,7 @@ export const Description = ({
     return (
         <div
             className={cn(
-                " font-switzer text-md lg:text-lg font-light  text-primary",
+                " font-switzer text-md lg:text-lg font-light  text-shadow-gray-300",
                 className
             )}
         >
