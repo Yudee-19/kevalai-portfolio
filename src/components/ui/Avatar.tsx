@@ -51,7 +51,7 @@ const Avatar = () => {
                     </div>{" "}
                 </div>
             </div>
-            <div className="flex justify-between items-center mt-3">
+            <div className="flex flex-col md:flex-row justify-between items-center mt-3">
                 <div className="flex justify-center items-center gap-1 -translate-x-10">
                     <Star className="text-yellow-500" fill="currentColor" />
                     <Star className="text-yellow-500" fill="currentColor" />

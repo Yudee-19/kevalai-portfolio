@@ -104,7 +104,7 @@ const Page = () => {
                     <ScrollAnimationWrapper>
                         <div className="flex flex-col md:flex-row gap-10 mb-20 items-start">
                             {/* Get in Touch Section */}
-                            <Card className="max-w-none w-full md:w-1/2 p-8 shadow-lg">
+                            <Card className="max-w-none lg:aspect-[3/2] h-full w-full md:w-1/2 p-8 shadow-lg">
                                 <div className="w-full flex flex-col gap-6">
                                     <Title className="text-2xl lg:text-3xl font-medium text-blue-950">
                                         Get in Touch
@@ -150,7 +150,7 @@ const Page = () => {
                             </Card>
 
                             {/* Contact Image */}
-                            <div className="w-full md:w-1/2 flex justify-center">
+                            <div className="w-full aspect-[3/2] md:w-1/2 flex justify-center">
                                 <Image
                                     src="https://images.unsplash.com/photo-1681505526188-b05e68c77582?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="Contact us illustration"

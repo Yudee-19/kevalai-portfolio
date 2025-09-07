@@ -7,6 +7,21 @@ export const SponsorsMarquee = () => (
             Carat Logic
         </h1>
         <h1 className=" my-10 mx-10 text-2xl text-neutral-500 font-semibold">
+            Labnetxl
+        </h1>
+        <h1 className=" my-10 mx-10 text-2xl text-neutral-500 font-semibold">
+            HRC
+        </h1>
+        <h1 className=" my-10 mx-10 text-2xl text-neutral-500 font-semibold">
+            Dalila
+        </h1>
+        <h1 className=" my-10 mx-10 text-2xl text-neutral-500 font-semibold">
+            Zoya & Co.
+        </h1>
+        <h1 className=" my-10 mx-10 text-2xl text-neutral-500 font-semibold">
+            Gem World
+        </h1>
+        <h1 className=" my-10 mx-10 text-2xl text-neutral-500 font-semibold">
             Donai Gems
         </h1>
         <h1 className=" my-10 mx-10 text-2xl text-neutral-500 font-semibold">
