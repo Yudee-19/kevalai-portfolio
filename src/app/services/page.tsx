@@ -181,7 +181,7 @@ const ServicesPage = () => {
                                             : "md:flex-row-reverse"
                                     } justify-between items-start gap-10`}
                                 >
-                                    <Card className="max-w-none h-full lg:h-[400px] w-full md:w-1/2 p-8 shadow-none">
+                                    <Card className="max-w-none aspect-[3/2] h-full ] w-full md:w-1/2 p-8 shadow-md">
                                         <Title className="text-2xl lg:text-3xl font-medium text-blue-950 mb-5">
                                             {service.title}
                                         </Title>
@@ -194,13 +194,13 @@ const ServicesPage = () => {
                                         </Description>
                                     </Card>
 
-                                    <div className="w-full md:w-1/2 flex justify-center">
+                                    <div className="w-full aspect-[3/2] md:w-1/2 flex justify-center  ">
                                         <Image
                                             src={service.image}
                                             alt={`${service.title} illustration`}
                                             width={600}
                                             height="0"
-                                            className="rounded-2xl object-cover"
+                                            className="rounded-2xl object-cover shadow-md hover:shadow-2xl transition-all ease-in duration-500"
                                         />
                                     </div>
                                 </div>
