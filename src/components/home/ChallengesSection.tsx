@@ -46,9 +46,9 @@ const ChallengesSection = () => {
                             index % 2 === 0
                                 ? "md:flex-row"
                                 : "md:flex-row-reverse"
-                        } justify-between items-center gap-10`}
+                        } justify-between items-stretch gap-10`}
                     >
-                        <Card className="max-w-none h-full lg:h-100 w-full pt-20 md:w-1/2  shadow-none">
+                        <Card className="max-w-none lg:h-[390px] w-full py-8 md:w-1/2 shadow-none flex flex-col justify-center">
                             <Title className="lg:text-3xl font-medium text-blue-950 mb-5">
                                 {challenge.title}
                             </Title>
@@ -69,13 +69,13 @@ const ChallengesSection = () => {
                             </ul>
                         </Card>
 
-                        <div className="w-full md:w-1/2 flex justify-center">
+                        <div className="w-full md:w-1/2 flex justify-center items-center">
                             <Image
                                 src={challenge.image}
                                 alt={`${challenge.title} illustration`}
                                 width={600}
                                 height={460}
-                                className="rounded-3xl"
+                                className="rounded-3xl object-cover w-full h-full max-h-96"
                             />
                         </div>
                     </div>

@@ -47,7 +47,7 @@ const IndustryChallenge = () => {
                                 : "md:flex-row-reverse"
                         } justify-between items-start gap-10`}
                     >
-                        <Card className="max-w-none h-full w-full md:w-1/2 p-8 shadow-none ">
+                        <Card className="max-w-none h-full lg:h-[460px] w-full md:w-1/2 p-8 shadow-none hover:shadow-2xl transition-all ease-in duration-500 ">
                             <Title className="text-2xl lg:text-3xl font-medium text-blue-950 mb-5">
                                 {challenge.title}
                             </Title>
@@ -75,7 +75,7 @@ const IndustryChallenge = () => {
                             </Description>
                         </Card>
 
-                        <div className="w-full md:w-1/2 flex justify-center">
+                        <div className="w-full md:w-1/2 flex justify-center shadow-none hover:shadow-2xl transition-all ease-in duration-500 rounded-2xl">
                             <Image
                                 src={challenge.image}
                                 alt={`${challenge.title} illustration`}

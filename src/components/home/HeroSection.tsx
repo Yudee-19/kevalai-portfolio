@@ -6,6 +6,7 @@ import { ArrowUpRight, Section } from "lucide-react";
 import Image from "next/image";
 import Container from "@/components/ui/Container";
 import Link from "next/link";
+import { ColourfulText } from "../animations/ColourfulText";
 
 const HeroSection = () => {
     return (
@@ -14,12 +15,14 @@ const HeroSection = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-10">
                     <div className="flex flex-col items-start gap-5">
                         <div>
-                            <Title className="lg:text-6xl">
-                                Trade Smarter.
-                            </Title>
-                            <Title className="lg:text-6xl">
-                                Diamond Stronger.
-                            </Title>
+                            <ColourfulText
+                                text="Trade Smarter."
+                                className="text-4xl font-bold tracking-tighter text-blue-950 md:text-5xl lg:text-6xl"
+                            />
+                            <ColourfulText
+                                text="Diamond Stronger."
+                                className="text-4xl font-bold tracking-tighter text-blue-950 md:text-5xl lg:text-6xl"
+                            />
                             <Description className="">
                                 Transforming Challenges into Opportunities for
                                 Independent

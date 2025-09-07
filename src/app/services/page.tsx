@@ -20,27 +20,22 @@ const services = [
             "Seamless transaction processing and documentation",
         ],
         details:
-            "Our platform provides diamond dealers to track income and expenses, create certificates of authenticity, and automate repetitive tasks, making more data-driven trading decisions.",
+            "The platform also delivers real-time analytics to track market trends, buyer preferences, and inventory performance, helping businesses make data-driven trading decisions.",
         image: "https://images.unsplash.com/photo-1639754390580-2e7437267698?q=80&w=2041&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         title: "Real-Time Supplier Integrations",
         description:
-            "Establish a stronghold that guarantees a seamless connection and FTP capabilities with diverse locations and various API platforms.",
-        solutions: [
-            "Direct supplier API connections",
-            "Real-time inventory synchronization",
-            "Automated pricing updates",
-            "Multi-platform integration support",
-        ],
+            "Seamlessly integrate with global suppliers through secure API and FTP connections for live inventory updates.This feature ensures that merchants always have the latest stock availability from trusted sources like Antwerp and other international partners. ",
+
         details:
-            "This feature ensures that merchants always have the latest stock availability from trusted sources like Antwerp and other major trading hubs. By reducing manual updates and errors, it streamlines operations and boosts efficiency in the diamond supply chain.",
+            "By reducing manual updates and errors, it streamlines operations and builds efficiency in the diamond supply chain.",
         image: "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         title: "Smart Pricing & Visual AI Tools",
         description:
-            "Advanced tools and algorithms designed to buy competitive pricing and quality assurance.",
+            "Harness the power of artificial intelligence to stay competitive in pricing and quality assurance.Using Rapaport market data, AI algorithms recommend accurate and dynamic pricing. ",
         solutions: [
             "AI-powered pricing recommendations",
             "Visual quality assessment tools",
@@ -48,13 +43,13 @@ const services = [
             "Competitive pricing intelligence",
         ],
         details:
-            "Using Rapaport Data Report and Certified international accurate and real-time pricing. By reducing manual AI tools deliver advanced insights for optimal price precision, supporting businesses build customer trust and transparency in transactions.",
+            "In addition, visual AI tools analyze diamond images for grading, authenticity, and overall quality—helping businesses build customer trust and transparency in transactions.",
         image: "https://images.unsplash.com/photo-1739805591936-39f03383c9a9?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         title: "Dashboards & Intelligence Systems",
         description:
-            "Comprehensive dashboards provide businesses with deep insights and analytics for informed decision-making.",
+            "Customizable dashboards provide businesses with deep insights into their operations.With built-in predictive analytics, anomaly detection, and trend analysis, companies can identify opportunities and risks early.",
         solutions: [
             "Real-time business analytics",
             "Custom KPI tracking",
@@ -62,13 +57,13 @@ const services = [
             "Data visualization tools",
         ],
         details:
-            "With built-in predictive analytics, anomaly detection, and trend analysis, businesses can identify opportunities and risks early. Supply chain intelligence tools further enhance efficiency, enabling better informed control and smarter decisions across all business operations.",
+            "Supply chain intelligence tools further enhance efficiency, ensuring better inventory control and smarter decision-making.",
         image: "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         title: "RapNet Integration",
         description:
-            "Directly integrate with RapNet to access one of the world's largest diamond trading networks.",
+            "Directly sync with RapNet to access one of the world’s largest diamond trading networks.The integration provides updated listings, global pricing benchmarks, and expert market recommendations.",
         solutions: [
             "Direct RapNet marketplace access",
             "Real-time diamond listings",
@@ -76,13 +71,13 @@ const services = [
             "Seamless trading capabilities",
         ],
         details:
-            "This integration provides updated listings, global pricing information and extended market reach instantly. This helps businesses increase their visibility, strengthen competitive positioning, and make informed trading strategies based on real market data.",
+            "This helps businesses increase their visibility, strengthen competitive positioning, and make informed trading choices.",
         image: "https://www.scommerce-mage.com/blog/wp-content/uploads/2022/01/d2.png",
     },
     {
         title: "Supplier Integration Flexibility",
         description:
-            "Support for multiple supplier connections allows businesses to work seamlessly with different vendors.",
+            "Support for multiple supplier connections allows businesses to work seamlessly with different vendors. ",
         solutions: [
             "Multi-vendor support",
             "Flexible API integrations",
@@ -90,13 +85,13 @@ const services = [
             "Unified inventory management",
         ],
         details:
-            "Our platform offers great flexibility for connecting diverse systems including supplier information, simplified inventory management, and effective data processing across platforms.",
+            "Whether through APIs, FTP, or structured data mapping, the system standardizes supplier information, simplifies inventory management, and ensures data consistency across platforms.",
         image: "https://images.unsplash.com/photo-1682561477064-44fb2dfd82bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         title: "User-Friendly Digital Storefront",
         description:
-            "Modern e-commerce capabilities offering beautiful and intuitive online store functionality.",
+            "Merchants can create branded, customer-facing websites to showcase their diamond collections.Featuring high-quality visuals, integrated chat tools, and smooth navigation, these storefronts provide a premium digital shopping experience. ",
         solutions: [
             "Responsive web design",
             "Mobile-optimized interface",
@@ -104,13 +99,13 @@ const services = [
             "Customer account management",
         ],
         details:
-            "Features responsively scaled, engaging user tools, and intuitive navigation options ensure a premium digital shopping experience. Designed for cross-industry analysis, it strengthens online presence and enhances customer engagement.",
+            "Designed for both retail and wholesale, it strengthens online presence and boosts customer engagement.",
         image: "https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         title: "Cloud-Based Scalability",
         description:
-            "Enterprise-level cloud infrastructure ensures reliability and business growth.",
+            "A secure, cloud-native platform that grows alongside your business.From small-scale merchants to enterprise-level trading operations, the system adapts effortlessly with scalable workflows, automated processes, and flexible resource allocation. ",
         solutions: [
             "Scalable cloud architecture",
             "99.9% uptime guarantee",
@@ -118,13 +113,13 @@ const services = [
             "Automatic backup systems",
         ],
         details:
-            "Easy setup and deployment to enterprise-level hosting capabilities designed for high-performance computing, multi-platform workflows, self-hosted processes, and flexible resource allocation. This supports businesses remain agile and efficient in fast-paced market conditions.",
+            "This ensures businesses remain agile and efficient in a fast-changing market.",
         image: "https://images.unsplash.com/photo-1667372283496-893f0b1e7c16?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         title: "AI-Powered Chatbot",
         description:
-            "Intelligent customer service and support through our AI-powered sales guidance.",
+            "A 24/7 virtual assistant designed for customer support and sales guidance.The chatbot answers queries instantly, recommends products, assists with transactions, and streamlines operations—all without human intervention. ",
         solutions: [
             "24/7 customer support",
             "Intelligent query handling",
@@ -132,7 +127,7 @@ const services = [
             "Multi-language support",
         ],
         details:
-            "Our chatbot enhances customer experience, recommends products, handles queries efficiently, and can facilitate seamless guided human interaction. Through AI assistance, it service, it enhances customer satisfaction and improves operational efficiency.",
+            "By offering round-the-clock service, it enhances customer satisfaction and improves operational efficiency.",
         image: "https://images.unsplash.com/photo-1659018966834-99be9746b49e?q=80&w=2098&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
 ];
@@ -186,31 +181,13 @@ const ServicesPage = () => {
                                             : "md:flex-row-reverse"
                                     } justify-between items-start gap-10`}
                                 >
-                                    <Card className="max-w-none h-full w-full md:w-1/2 p-8 shadow-none">
+                                    <Card className="max-w-none h-full lg:h-[400px] w-full md:w-1/2 p-8 shadow-none">
                                         <Title className="text-2xl lg:text-3xl font-medium text-blue-950 mb-5">
                                             {service.title}
                                         </Title>
                                         <Description className="text-base lg:text-lg text-gray-700 font-normal leading-relaxed mb-6">
                                             {service.description}
                                         </Description>
-
-                                        {service.solutions && (
-                                            <ul className="list-disc list-inside flex flex-col gap-2 text-gray-700 text-base font-normal mb-6 ml-4">
-                                                {service.solutions.map(
-                                                    (
-                                                        solution,
-                                                        solutionIndex
-                                                    ) => (
-                                                        <li
-                                                            key={solutionIndex}
-                                                            className="leading-relaxed"
-                                                        >
-                                                            {solution}
-                                                        </li>
-                                                    )
-                                                )}
-                                            </ul>
-                                        )}
 
                                         <Description className="text-base lg:text-lg text-gray-700 font-normal leading-relaxed">
                                             {service.details}
@@ -222,7 +199,7 @@ const ServicesPage = () => {
                                             src={service.image}
                                             alt={`${service.title} illustration`}
                                             width={600}
-                                            height={400}
+                                            height="0"
                                             className="rounded-2xl object-cover"
                                         />
                                     </div>
