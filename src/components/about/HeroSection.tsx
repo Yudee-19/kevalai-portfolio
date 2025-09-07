@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import Container from "@/components/ui/Container";
+import Card from "../ui/Card";
+import Link from "next/link";
 
 const HeroSection = () => {
     return (
@@ -26,9 +28,11 @@ const HeroSection = () => {
                         </div>
 
                         <div>
-                            <Button>
-                                Explore Solutions <ArrowUpRight />
-                            </Button>
+                            <Link href="/services" passHref>
+                                <Button>
+                                    Explore Solutions <ArrowUpRight />
+                                </Button>
+                            </Link>
                         </div>
                     </div>
                     <div>

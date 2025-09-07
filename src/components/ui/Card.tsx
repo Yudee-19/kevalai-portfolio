@@ -13,7 +13,7 @@ const Card = ({
     return (
         <div
             className={cn(
-                "bg-secondary rounded-2xl max-w-md mx-auto shadow-xl p-10",
+                "bg-secondary w-full h-full rounded-2xl max-w-md mx-auto shadow-xl p-10",
                 className
             )}
         >

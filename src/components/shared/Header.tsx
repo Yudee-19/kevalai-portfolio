@@ -13,7 +13,7 @@ const Header = () => {
     };
 
     return (
-        <div className="sticky top-0 bg-white z-50 shadow-sm">
+        <div className="sticky top-0 bg-secondary z-50 shadow-sm">
             <Container>
                 <div className="flex justify-between items-center py-4">
                     <div className="flex justify-center items-center gap-10 ">
@@ -55,9 +55,11 @@ const Header = () => {
 
                     {/* Desktop Get Started Button */}
                     <div className="hidden md:block">
-                        <Button>
-                            Get Started <ArrowUpRight />
-                        </Button>
+                        <Link href="/contact" passHref>
+                            <Button>
+                                Get Started <ArrowUpRight />
+                            </Button>
+                        </Link>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -109,12 +111,14 @@ const Header = () => {
                                 </div>
                             </Link>
                             <div className="pt-2">
-                                <Button
-                                    className="w-full"
-                                    onClick={() => setIsMenuOpen(false)}
-                                >
-                                    Get Started <ArrowUpRight />
-                                </Button>
+                                <Link href="/contact" passHref>
+                                    <Button
+                                        className="w-full"
+                                        onClick={() => setIsMenuOpen(false)}
+                                    >
+                                        Get Started <ArrowUpRight />
+                                    </Button>
+                                </Link>
                             </div>
                         </nav>
                     </div>

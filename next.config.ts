@@ -9,6 +9,12 @@ const nextConfig: NextConfig = {
                 port: "",
                 pathname: "/photo-**",
             },
+            {
+                protocol: "https",
+                hostname: "www.scommerce-mage.com",
+                port: "",
+                pathname: "/**",
+            },
         ],
     },
 };

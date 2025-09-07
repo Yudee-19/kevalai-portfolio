@@ -4,6 +4,7 @@ import Card from "@/components/ui/Card";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 
 const challenges = [
     {
@@ -47,7 +48,7 @@ const ChallengesSection = () => {
                                 : "md:flex-row-reverse"
                         } justify-between items-center gap-10`}
                     >
-                        <Card className="max-w-none h-100 w-full pt-20 md:w-1/2  shadow-none">
+                        <Card className="max-w-none h-full lg:h-100 w-full pt-20 md:w-1/2  shadow-none">
                             <Title className="lg:text-3xl font-medium text-blue-950 mb-5">
                                 {challenge.title}
                             </Title>
@@ -82,9 +83,11 @@ const ChallengesSection = () => {
             </div>
 
             <div className="flex justify-center mt-10">
-                <Button className="bg-blue-950 text-white text-lg px-4 py-1.5 rounded-lg shadow-lg">
-                    View All Solutions <ArrowUpRight className="w-5 h-5" />
-                </Button>
+                <Link href="/services" passHref>
+                    <Button className="bg-blue-950 text-white text-lg px-4 py-1.5 rounded-lg shadow-lg">
+                        View All Solutions <ArrowUpRight className="w-5 h-5" />
+                    </Button>
+                </Link>
             </div>
         </div>
     );

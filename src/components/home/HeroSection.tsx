@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowUpRight, Section } from "lucide-react";
 import Image from "next/image";
 import Container from "@/components/ui/Container";
+import Link from "next/link";
 
 const HeroSection = () => {
     return (
@@ -30,9 +31,11 @@ const HeroSection = () => {
                             <Avatar />
                         </div>
                         <div>
-                            <Button>
-                                Explore Solutions <ArrowUpRight />
-                            </Button>
+                            <Link href="/services" passHref>
+                                <Button>
+                                    Explore Solutions <ArrowUpRight />
+                                </Button>
+                            </Link>
                         </div>
                     </div>
                     <div>

@@ -3,7 +3,7 @@ import Card from "@/components/ui/Card";
 import { Description, Title } from "@/components/ui/Title";
 import {
     ChartNoAxesColumn,
-    Link,
+    Link as LucideLink,
     Shield,
     Users,
     Zap,
@@ -11,6 +11,7 @@ import {
     ArrowUpRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const solutions = [
     {
@@ -23,7 +24,7 @@ const solutions = [
         title: "Supplier Integrations",
         description:
             "Direct access to live inventories from trusted suppliers for seamless transactions.",
-        icon: <Link />,
+        icon: <LucideLink />,
     },
     {
         title: "AI Pricing & Imaging",
@@ -64,7 +65,7 @@ const OurSolutionsSection = () => {
                         <div className="mb-4 bg-[#E9ECF0] inline-flex items-center justify-center rounded-lg  p-3 text-primary">
                             {solution.icon}
                         </div>
-                        <Title className=" text-black font-light lg:text-xl my-3">
+                        <Title className=" text-black font-light text-xl md:text-xl lg:text-xl my-3">
                             {solution.title}
                         </Title>
                         <Description className="text-neutral-500">
@@ -73,9 +74,11 @@ const OurSolutionsSection = () => {
                     </Card>
                 ))}
             </div>
-            <Button className="text-lg">
-                View All Solutions <ArrowUpRight />
-            </Button>
+            <Link href="/services" passHref>
+                <Button className="text-lg">
+                    View All Solutions <ArrowUpRight />
+                </Button>
+            </Link>
         </div>
     );
 };
