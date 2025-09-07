@@ -168,7 +168,7 @@ const ServicesPage = () => {
                             Our Digital Solutions
                         </Title>
                         <Description className="text-xl text-left text-gray-600 max-w-full mx-auto">
-                            Discover how KevalAI's innovative technology
+                            Discover how KevalAI&apos;s innovative technology
                             solutions are transforming
                             <br />
                             the diamond industry and empowering merchants

@@ -102,8 +102,8 @@ const IndustryChallenge = () => {
                         Our Leadership
                     </Title>
                     <Description>
-                        Meet the team behind KevalAI's mission to transform the
-                        diamond industry
+                        Meet the team behind KevalAI&apos;s mission to transform
+                        the diamond industry
                     </Description>
                     <Card className="mt-3 w-full max-w-none">
                         <h1 className="text-2xl font-bold text-primary">
