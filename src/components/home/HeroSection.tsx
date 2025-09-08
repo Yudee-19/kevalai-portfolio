@@ -1,6 +1,5 @@
 import React from "react";
 import { Description, Title } from "@/components/ui/Title";
-import Avatar from "@/components/ui/Avatar";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, Section } from "lucide-react";
 import Image from "next/image";
@@ -30,9 +29,7 @@ const HeroSection = () => {
                                 Diamond Merchants
                             </Description>
                         </div>
-                        <div className="">
-                            <Avatar />
-                        </div>
+
                         <div>
                             <Link href="/services" passHref>
                                 <Button>

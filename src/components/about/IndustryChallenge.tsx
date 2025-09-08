@@ -96,7 +96,7 @@ const IndustryChallenge = () => {
                 </Link>
             </div>
 
-            <div className="flex flex-col md:flex-row gap-10 mt-20 items-center">
+            {/* <div className="flex flex-col md:flex-row gap-10 mt-20 items-center">
                 <div className="w-full md:w-1/2 flex flex-col gap-4 ">
                     <Title className="font-normal lg:text-5xl text-blue-950">
                         Our Leadership
@@ -130,7 +130,7 @@ const IndustryChallenge = () => {
                         className="rounded-2xl object-cover"
                     />
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

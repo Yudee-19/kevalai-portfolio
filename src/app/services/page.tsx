@@ -181,7 +181,7 @@ const ServicesPage = () => {
                                             : "md:flex-row-reverse"
                                     } justify-between items-start gap-10`}
                                 >
-                                    <Card className="max-w-none lg:aspect-[3/2] h-full ] w-full md:w-1/2 p-8 shadow-md">
+                                    <Card className="max-w-none lg:aspect-[3/2] h-full  w-full md:w-1/2 p-8 shadow-md">
                                         <Title className="text-2xl lg:text-3xl font-medium text-blue-950 mb-5">
                                             {service.title}
                                         </Title>
